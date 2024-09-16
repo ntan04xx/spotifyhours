@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import spotifyhours from './spotifyhours.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={spotifyhours} className="App-logo" alt="logo" />
         <p>
           Tired of waiting until December for your Wrapped? Find out your most watched songs here first.
         </p>
