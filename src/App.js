@@ -7,16 +7,24 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Tired of waiting until December for your Wrapped? Find out your most watched songs here first.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Login in to your account to see now!
+        </p>
+        <form>
+          <div className='input-username'>
+            <label htmlFor='username'>Username: </label>
+            <input type='text' id='username'></input>
+          </div>
+          <div className='input-password'>
+            <label htmlFor='password'>Password: </label>
+            <input type='text' id='password'></input>
+          </div>
+          <button type='submit' className='submit-btn'>
+            Submit
+          </button>
+        </form>
       </header>
     </div>
   );
