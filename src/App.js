@@ -1,5 +1,6 @@
 import spotifyhours from './spotifyhours.svg'; // credit to juicy_fish on Freepik
-//import {Link} from "react-router-dom";
+import spotifytile from './spotifytile.svg';
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -7,8 +8,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="App-toolbar">
-          <h4 class="alignLeft"> HOW TO USE </h4>
-          <h4 class="alignRight"> HOME </h4>
+          <img src={spotifytile} className="alignLeft" alt="logo" style={{display: 'inline-block', height:'60px', marginTop: '20px'}}/>
+          <Router>
+            <h4 class="alignLeft"> HOW TO USE </h4>
+            <Link to={{}} class="alignRight"> HOME </Link>
+
+            <Routes>
+              <Route path="/about" element={<App />}></Route>
+            </Routes>
+          </Router>
         </div>
 
         <div style = {{display: 'inline-block', marginTop:'50px'}}>

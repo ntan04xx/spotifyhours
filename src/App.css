@@ -19,11 +19,13 @@
 .alignLeft {
   float: left;
   margin-left: 20px;
+  margin-top: 30px;
 }
 
 .alignRight {
   float: right;
   margin-right: 20px;
+  margin-top: 30px;
 }
 
 .App-signin {
