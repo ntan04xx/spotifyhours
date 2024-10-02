@@ -1,0 +1,26 @@
+.Instruction {
+    text-align: center;
+    background-color: black;
+}
+  
+.Instruction-header {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+font-size: calc(10px + 2vmin);
+color: green;
+}
+
+.alignLeft {
+float: left;
+margin-left: 20px;
+margin-top: 30px;
+color:black
+}
+
+.alignRight {
+float: right;
+margin-right: 20px;
+margin-top: 30px;
+color: black
+}
